@@ -75,3 +75,44 @@ p {
 .machine-result span {
     color: rgb(228, 73, 73);
 }
+
+
+@media screen and (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        button {
+            padding: 0.5rem;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        
+    .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        text-align: center;
+
+    }
+
+    
+    button:hover {
+        opacity: 0.8;
+        border-radius: 50%;
+    }
+}
