@@ -68,10 +68,10 @@ p {
     margin-bottom: 1rem;
 }
 
-.result span {
+.human-result span {
     color: rgb(73, 73, 228);
 }
 
-.machineresult span {
+.machine-result span {
     color: rgb(228, 73, 73);
 }
