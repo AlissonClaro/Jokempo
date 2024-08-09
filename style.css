@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    background: #fff;
+    background: linear-gradient(90deg, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913); /* made at https://learnui.design/tools/gradient-generator.html */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,11 +69,11 @@ p {
 }
 
 .human-result span {
-    color: rgb(73, 73, 228);
+    color: rgb(157, 255, 0);
 }
 
 .machine-result span {
-    color: rgb(228, 73, 73);
+    color: rgb(241, 0, 0);
 }
 
 
